@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Objects_Morgan_Joseph
 {
-    interface IBootUp
+    interface IBootUp // Define an interface named IBootUp
     {
-        public bool IsOn { get; set; }
-        public void PowerOnOff();
-    }
+        public bool IsOn { get; set; } // Declare a property named IsOn of type bool with get and set accessors
+        public void PowerOnOff(); // Declare a method named PowerOnOff that returns void
+    } 
 }
